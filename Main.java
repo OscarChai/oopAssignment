@@ -18,7 +18,7 @@ public class Main {
         button.addActionListener(e -> {
             int a = Integer.parseInt(t1.getText());
             int b = Integer.parseInt(t2.getText());
-            result.setText("Result is " + (a + b));
+            result.setText("The Result is " + (a + b));
         });
 
         frame.add(t1);

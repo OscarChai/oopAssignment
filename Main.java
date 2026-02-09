@@ -7,7 +7,7 @@ public class Main {
 
         JTextField t1 = new JTextField();
         JTextField t2 = new JTextField();
-        JLabel result = new JLabel("Result: ");
+        JLabel result = new JLabel("The result is ");
         JButton button = new JButton("Add");
 
         t1.setBounds(50, 30, 150, 25);
